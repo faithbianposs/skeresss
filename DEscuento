@@ -1,0 +1,17 @@
+compra= float(input("ingrese el monto de la compra: "))
+if compra < 800:
+    print("el total a pagar es: ", compra)
+
+elif 800 <= compra <= 1500:
+    compra -=(compra*0.10)
+    print("el total a pagar, con su respectivo descuento, es: ",compra)
+
+elif 1500 < compra<=5000:
+
+    compra -=(compra * 0.15)
+    print ("el total a pagar, con su respectivo descuento, es: ",compra)
+
+else:
+    compra-=(compra * 0.20)
+    print("el total a pagar, con su respectivo descuento, es:",compra )
+    
